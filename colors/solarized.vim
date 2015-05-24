@@ -558,9 +558,9 @@ exe "hi! Statement"      .s:fmt_none   .s:fg_green  .s:bg_none
 "        Conditional     if, then, else, endif, switch, etc.
 "        Repeat          for, do, while, etc.
 "        Label           case, default, etc.
-"        Operator        "sizeof", "+", "*", etc.
-"        Keyword         any other keyword
 "        Exception       try, catch, throw
+" exe "hi! Operator"       .s:fmt_none   .s:fg_base2  .s:bg_none
+" exe "hi! Keyword"        .s:fmt_none   .s:fg_magenta  .s:bg_none
 
 exe "hi! PreProc"        .s:fmt_none   .s:fg_orange .s:bg_none
 "       *PreProc         generic Preprocessor
@@ -766,6 +766,19 @@ exe "hi! htmlTagName"       .s:fmt_bold .s:fg_blue   .s:bg_none
 exe "hi! htmlSpecialTagName".s:fmt_ital .s:fg_blue   .s:bg_none
 exe "hi! htmlArg"           .s:fmt_none .s:fg_base00 .s:bg_none
 exe "hi! javaScript"        .s:fmt_none .s:fg_yellow .s:bg_none
+"}}}
+" golang highlighting "{{{
+" ---------------------------------------------------------------------
+"exe "hi! goString"            .s:fmt_none .s:fg_cyan .s:bg_none
+"exe "hi! goStruct"            .s:fmt_none .s:fg_blue .s:bg_none
+"exe "hi! goStructDef"            .s:fmt_none .s:fg_blue .s:bg_none
+"exe "hi! goMethod"            .s:fmt_none .s:fg_yellow .s:bg_none
+exe "hi! goDirective"            .s:fmt_none .s:fg_magenta .s:bg_none
+"exe "hi! goDeclaration"            .s:fmt_none .s:fg_green .s:bg_none
+"exe "hi! goCharacter"            .s:fmt_none .s:fg_red .s:bg_none
+"exe "hi! goExtraType"            .s:fmt_none .s:fg_magenta .s:bg_none
+"exe "hi! goBoolean"            .s:fmt_none .s:fg_magenta .s:bg_none
+
 "}}}
 " perl highlighting "{{{
 " ---------------------------------------------------------------------
